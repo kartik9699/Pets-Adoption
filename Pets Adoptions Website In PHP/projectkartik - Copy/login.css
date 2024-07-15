@@ -1,0 +1,109 @@
+
+*{
+    margin:0;
+    padding:0;
+  }
+  body {
+      
+    background-image:url("krista-mangulsone-9gz3wfHr65U-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 610px;
+    width: 100%;
+    background-attachment: fixed;
+    
+    }
+    .wrapper {
+      color:white;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 400px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      box-shadow: 0 15px 25px rgba(0,0,0,.6);
+      border-radius: 10px;
+      opacity: 0.5;
+      background-color:black;
+    }
+    .single-div {
+      position: relative;
+      opacity: 1.0;
+    }
+    
+    .single-div input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 20px;
+      
+      color: white;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 2px solid #262626;
+      outline: none;
+      opacity: 1.0;
+      background-color: black;
+      
+  }
+    .single-div label {
+      position: absolute;
+      top:0;
+      left: 0;
+      padding: 10px 0;
+      font-size: 20px;
+      color:white;
+      pointer-events: none;
+      transition: .5s;
+      opacity: 1.0;
+      background-color: black;
+    }
+    
+    .single-div input:focus ~ label,
+    .single-div input:valid ~ label {
+      top: -20px;
+      left: 0;
+      color: red;
+      font-size: 12px;
+      opacity: 1.0;
+    }
+    button {
+      
+      text-decoration: none;
+      font: bold;
+      padding: 15px 0; 
+      display: block;
+      text-align: center;
+      margin-top: 100%;
+      border-radius: 2cm;
+      font: bolder;
+      size: 25pc;
+      border: rgb(5, 5, 5) 2px solid;
+      size: 25px;
+      font: bold;
+      opacity: 1.0;
+      color: #000;
+  }
+  span{
+  color: red;
+  opacity: 1.0;
+  }
+  .sub{
+    padding-left: 35%;
+    font-size: large;
+    opacity: 1.0;
+    background-color: #000;
+
+  }
+  a{
+    color: white;
+    font: bold;
+    opacity: 1.0;
+  text-decoration: none;
+  }
+  
+  
+  
+  

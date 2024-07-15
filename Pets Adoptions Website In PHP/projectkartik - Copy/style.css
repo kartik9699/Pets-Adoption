@@ -1,0 +1,15 @@
+p.nm{
+    text-align: left;
+    size: 50;
+    font: bold 3px;
+    font-size: x-large;
+}
+p{
+    font-size: medium;  
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
